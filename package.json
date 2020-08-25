@@ -1,0 +1,33 @@
+{
+  "name": "express-auth-service",
+  "version": "1.0.0",
+  "description": "Authentication Service using Express MongoDB JWT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibabanadh/express-auth-service.git"
+  },
+  "keywords": [],
+  "author": "Sai Baba Nadh Konda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saibabanadh/express-auth-service/issues"
+  },
+  "homepage": "https://github.com/saibabanadh/express-auth-service#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mkdirp": "^1.0.4",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0",
+    "swagger-ui-express": "^4.1.4",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}
